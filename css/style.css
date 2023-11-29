@@ -5,21 +5,25 @@
 }
 
 header {
-    border: solid 3px black;
-
-    background-color: rgb(233, 35, 233);
+    height: 40px;
+    background-color: black;
     color: white;
     text-align: right;
 }
 
-main {
-    border: solid red 3px;
+span {
+    background-color: grey;
+    color: white;
+}
 
+main {
+    background-color: black;
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-wrap: wrap; 
     align-items: center; 
+    justify-content: center
 }
 
 figure {
@@ -31,13 +35,13 @@ img {
     max-width: 200px;
 }
 
-span {
+.spanimg {
     position: absolute; 
     left: 10px; 
     bottom: 7px;
     background-color: grey;
     color: white;
-    
+
     /* opacità cambia anche la scritta
     opacity: 0.3; */
 }

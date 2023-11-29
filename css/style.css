@@ -3,3 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    border: solid 3px black;
+    background-color: rgb(233, 35, 233);
+    color: white;
+    text-align: right;
+}
+
+main {
+    border: solid red 3px;
+}
+
+footer {
+    border: solid green 3px;
+    background-color: grey;
+    color: white;
+}

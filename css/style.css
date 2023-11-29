@@ -6,6 +6,7 @@
 
 header {
     border: solid 3px black;
+
     background-color: rgb(233, 35, 233);
     color: white;
     text-align: right;
@@ -13,10 +14,30 @@ header {
 
 main {
     border: solid red 3px;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+figure {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+img {
+    width: 200px;
+    padding: 3px;
+}
+
+span {
+    
 }
 
 footer {
     border: solid green 3px;
+
     background-color: grey;
     color: white;
 }

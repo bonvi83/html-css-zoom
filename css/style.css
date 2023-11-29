@@ -17,22 +17,29 @@ main {
 
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center; 
 }
 
 figure {
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    
+    position: relative;
 }
 
 img {
-    width: 200px;
     padding: 3px;
+    max-width: 200px;
 }
 
 span {
+    position: absolute; 
+    left: 10px; 
+    bottom: 7px;
+    background-color: grey;
+    color: white;
     
+    /* opacità cambia anche la scritta
+    opacity: 0.3; */
 }
 
 footer {
